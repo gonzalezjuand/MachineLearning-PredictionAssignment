@@ -19,9 +19,7 @@ Juan David González
 
 > The data for this project come from this source: http://groupware.les.inf.puc-rio.br/har. If you use the document you create for this class for any purpose please cite them as they have been very generous in allowing their data to be used for this kind of assignment. 
 
-> **Reproducibility **
-
-> Due to security concerns with the exchange of R code, your code will not be run during the evaluation by your classmates. Please be sure that if they download the repo, they will be able to view the compiled HTML version of your analysis. 
+> **Reproducibility ** 
 
 # Prepare the datasets
 
@@ -47,9 +45,6 @@ Read the testing data into a data table.
 url <- "https://d396qusza40orc.cloudfront.net/predmachlearn/pml-testing.csv"
 DTest <- fread(url)
 ```
-
-Which variables in the test dataset have zero `NA`s?
-Use this tip: [finding columns with all missing values in r](http://stackoverflow.com/a/11330265).
 
 Belt, arm, dumbbell, and forearm variables that do not have any missing values in the test dataset will be **predictor candidates**.
 
